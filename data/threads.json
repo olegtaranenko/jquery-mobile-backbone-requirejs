@@ -1,0 +1,22 @@
+{
+  "count": 56,
+  "threads": [{
+    "id": 123,
+    "subject": "Tracking Ramonova",
+    "participants": ["Jamund ferguson", "Mamta Jain"],
+    "preview": "how are..",
+    "starred": false,
+    "read": false,
+    "type": "Message",
+    "updated": "1358531968674"
+  }, {
+    "id": 124,
+    "subject": "Project status",
+    "participants": ["Rick Arby", "Chun Lei"],
+    "preview": "New defect..",
+    "starred": false,
+    "read": true,
+    "type": "Message",
+    "updated": "1358531968649"
+  }]
+}
