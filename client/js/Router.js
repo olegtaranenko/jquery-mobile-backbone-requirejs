@@ -3,13 +3,11 @@ define([
   'underscore',
   'backbone',
   'js/views/OneView',
-  'js/views/TwoView',
-  'js/views/PopupView'
-], function($, _, Backbone, OneView, TwoView, PopupView){
+  'js/views/TwoView'
+], function($, _, Backbone, OneView, TwoView){
   new $.mobile.Router({
     "/one":   { handler: 'one', events: "bc" },
-    "/two":   { handler: 'two', events: "bc" },
-    "/popup": { handler: 'popup', events: "bc" }
+    "/two":   { handler: 'two', events: "bc" }
   }, {
     one: function(){
       new OneView().render();
@@ -17,10 +15,6 @@ define([
 
     two: function(){
       new TwoView().render();
-    },
-
-    popup: function(){
-      new PopupView().render();
     },
 
     'default': function(){
